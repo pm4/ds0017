@@ -1,3 +1,58 @@
 My project readme
 needs to be read
 ignore url https://github.com/github/gitignore/blob/master/Python.gitignore
+
+
+
+git init
+git status
+git add readme.txt
+git commit
+
+i
+start typing commit msg
+esc to escape 
+:wq
+
+git commit -m "blah"
+git log
+# stages everything
+git add .
+# add html files
+git add *.html
+
+.gitignore
+
+cannot create .gitignore via windows as filename is required
+so create using gitbash using command below
+touch .gitignore
+
+git branch branchname
+then
+git checkout branchname
+# stage & commit changes
+
+from master
+git merge branchname
+
+# view log comments
+git log
+
+# removing a file that is already in git project
+git rm blah.html
+
+# renaming a file -> blah3 renamed to blah4
+git mv blah3.html blah4.html
+
+# to move to another folder that folder needs to already exist
+git mv blah4.html fold/blah3.html
+
+# to unstage a staged file
+git reset HEAD filename
+
+# to unmodify a changed file that is not staged
+# better to STASH if changes are needed later
+git checkout -- filename
+
+
+
